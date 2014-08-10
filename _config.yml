@@ -7,7 +7,7 @@ baseurl: ""
 url: "http://www.corylucas.com"
 twitter_username: coryflucas
 github_username:  coryflucas
-
+version: 1
 # Build settings
 markdown: kramdown
 permalink: pretty

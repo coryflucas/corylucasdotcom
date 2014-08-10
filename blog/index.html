@@ -1,0 +1,25 @@
+---
+layout: default
+permalink: /blog/
+title: Blog
+nav_order: 2
+---
+
+<div class="home">
+
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li class="post">
+            <h3>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <p>{{ post.excerpt }}</p>            
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p>&nbsp;</p>
+    <p class="rss-subscribe">subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

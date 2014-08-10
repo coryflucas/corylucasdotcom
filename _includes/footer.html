@@ -1,13 +1,7 @@
 <footer class="footer">
     <div class="container">
-        <div class="pull-left">
-            <ul class="list-inline">
-                <li>&copy; {{ site.author }} {{ site.time | date: '%Y' }}</li>
-            </ul>
-        </div>
-
-        <div class="pull-right">
-            <ul class="list-inline">
+        <div class="contact">
+            <ul>
                 <li>
                     <a href="mailto:{{ site.email }}">
                         <i class="fa fa-envelope"></i> {{ site.email }}
@@ -23,6 +17,11 @@
                         <i class="fa fa-twitter"></i> {{ site.twitter_username }}
                     </a>
                 </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <ul>
+                <li>&copy; {{ site.author }} {{ site.time | date: '%Y' }}</li>
             </ul>
         </div>
     </div>

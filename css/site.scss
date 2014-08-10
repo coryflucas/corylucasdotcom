@@ -19,17 +19,24 @@ a:hover {
 }
 
 footer {
-    height: 40px;
+    line-height: 30px;
+    margin-top: 20px;
     border-top: 1px solid #ddd;
-    line-height: 40px;
 
     a {
         color: black;
     }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        list-style: none;
+    }
 }
 
 header {
-    margin-top: 10px;
+    padding-top: 10px;
 
     .navbar {
         text-shadow: 1px 1px 0px #f8f8f8, 3px 3px 1px rgba(0, 0, 0, .2);
@@ -38,7 +45,27 @@ header {
 
 @media (min-width: 768px) {
     header {
-        margin-top: 25px;
+        padding-top: 25px;
+    }
+
+    footer {
+        height: 40px;
+        line-height: 40px;
+        margin-top: 0px;
+
+        ul {
+            li {
+                display: inline-block;
+            }
+        }
+
+        .copyright {
+            float: left;
+        }
+
+        .contact {
+            float: right;
+        }
     }
 }
 

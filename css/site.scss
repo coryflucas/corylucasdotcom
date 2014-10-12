@@ -80,6 +80,10 @@ div.about {
 
     img {
         margin-bottom: 20px;
+
+        &.avatar {
+            max-width: 280px;
+        }
     }
 
     .contact {

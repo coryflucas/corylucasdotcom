@@ -1,28 +1,26 @@
-<footer class="footer">
+<footer class="footer py-4">
     <div class="container">
-        <div class="contact">
-            <ul>
-                <li>
-                    <a href="mailto:{{ site.email }}">
-                        <i class="bi bi-envelope-at-fill"></i> {{ site.email }}
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/{{ site.github_username }}">
-                        <i class="bi bi-github"></i> {{ site.github_username }}
-                    </a>
-                </li>
-                <li>
-                    <a href="https://bsky.app/profile/{{ site.twitter_username }}">
-                        <i class="bi bi-bluesky"></i> {{ site.twitter_username }}
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="copyright">
-            <ul>
-                <li>&copy; {{ site.author }} {{ site.time | date: '%Y' }}</li>
-            </ul>
+        <div class="row">
+        <ul>
+            <li>
+                <a href="mailto:{{ site.email }}">
+                    <i class="bi bi-envelope-at-fill"></i> {{ site.email }}
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/{{ site.github_username }}">
+                    <i class="bi bi-github"></i> {{ site.github_username }}
+                </a>
+            </li>
+            <li>
+                <a href="https://bsky.app/profile/{{ site.twitter_username }}">
+                    <i class="bi bi-bluesky"></i> {{ site.twitter_username }}
+                </a>
+            </li>
+        </ul>
         </div>
     </div>
 </footer>
+<div class="copyright py-2 text-center text-white">
+    <div class="container"><small>Copyright &copy; {{ site.author }} {{ site.time | date: '%Y' }}</small></div>
+</div>

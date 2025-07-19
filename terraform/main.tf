@@ -24,7 +24,7 @@ resource "aws_s3_bucket" "bucket" {
   bucket = "www.corylucas.com"
 
   tags = {
-    project = "corylucas.us"
+    project = "corylucas.com"
   }
 }
 

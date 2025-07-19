@@ -27,7 +27,9 @@ jobs:
         bundler-cache: true
         cache-version: 0
     - name: Build with Jekyll
-      run: bundle exec jekyll build --source web --baseurl "https://www.corylucas.com"
+      run: |
+        cd web
+        bundle exec jekyll build --baseurl "https://www.corylucas.com"
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
@@ -37,5 +39,6 @@ jobs:
         aws-region: us-east-1
 
     - name: Sync to S3
-      run: |
+      run:  |
+        cd web
         aws s3 sync _site/ s3://www.corylucas.com

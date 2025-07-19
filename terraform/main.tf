@@ -15,6 +15,11 @@ provider "aws" {
   region = "us-east-1"
 }
 
+import {
+  to = aws_s3_bucket.bucket
+  id = "www.corylucas.com"
+}
+
 resource "aws_s3_bucket" "bucket" {
   bucket = "www.corylucas.com"
 

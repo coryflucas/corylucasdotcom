@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Google Music App for Mac OS
-date: 2013-10-19 12:30 AM
 ---
 I've switched to using a Mac at home for my my day to day computing and developement.  One of the applications I missed
 from Linux was the now discontinued [Nuvola Player](http://nuvolaplayer.fenryxo.cz/home.html).  It's a simple desktop

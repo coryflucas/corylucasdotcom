@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Automatically pull latest on change with GitHub
-date: 2013-09-05 10:00 PM
-categories: none
 ---
 One of the things I wanted to set up when I created [French Press](https://github.com/coryflucas/french-press) was the
 ability for the blog to automatically pull new posts from GitHub when I committed them to the repo.  To do this I have

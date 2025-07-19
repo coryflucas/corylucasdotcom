@@ -15,6 +15,8 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     environment: production
+    defaults:
+      working-directory: web
 
     steps:
     - name: Checkout
@@ -27,9 +29,7 @@ jobs:
         bundler-cache: true
         cache-version: 0
     - name: Build with Jekyll
-      run: |
-        cd web
-        bundle exec jekyll build --baseurl "https://www.corylucas.com"
+      run: bundle exec jekyll build --baseurl "https://www.corylucas.com"
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
@@ -39,6 +39,4 @@ jobs:
         aws-region: us-east-1
 
     - name: Sync to S3
-      run:  |
-        cd web
-        aws s3 sync _site/ s3://www.corylucas.com
+      run: aws s3 sync _site/ s3://www.corylucas.com

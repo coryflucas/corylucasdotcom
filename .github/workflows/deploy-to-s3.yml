@@ -16,7 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     defaults:
-      working-directory: web
+      run:
+        working-directory: web
 
     steps:
     - name: Checkout

@@ -1,0 +1,41 @@
+name: Deploy to AWS S3
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'web/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1.207.0
+      with:
+        ruby-version: '3.1'
+        bundler-cache: true
+        cache-version: 0
+    - name: Build with Jekyll
+      run: bundle exec jekyll build --source web --baseurl "https://www.corylucas.com"
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+
+    - name: Sync to S3
+      run: |
+        aws s3 sync _site/ s3://www.corylucas.com

@@ -16,7 +16,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "corylucas.com"
+  bucket = "www.corylucas.com"
 
   tags = {
     project = "corylucas.us"

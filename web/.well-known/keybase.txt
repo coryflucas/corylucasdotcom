@@ -1,0 +1,87 @@
+==================================================================
+https://keybase.io/coryflucas
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.corylucas.com
+  * I am coryflucas (https://keybase.io/coryflucas) on keybase.
+  * I have a public key with fingerprint 5BF3 7FC1 A5CF B2EE 2641  22DA F0E3 806B 7D39 B973
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01017ccbf583fcd369f0f5021d8f01ee06b0f7a7fc072edb003b687d1fdabf0652950a",
+      "fingerprint": "5bf37fc1a5cfb2ee264122daf0e3806b7d39b973",
+      "host": "keybase.io",
+      "key_id": "f0e3806b7d39b973",
+      "kid": "01017ccbf583fcd369f0f5021d8f01ee06b0f7a7fc072edb003b687d1fdabf0652950a",
+      "uid": "669b46e0d97e88ad8617bd14b0b65400",
+      "username": "coryflucas"
+    },
+    "merkle_root": {
+      "ctime": 1752979300,
+      "hash_meta": "7b532c8d0a3e4382bc61524e7af90c809df58be51c6e74c13cbade02bc810720",
+      "seqno": 26954353
+    },
+    "revoke": {
+      "sig_ids": [
+        "3422e6603dd695dda25955e1d68933bfa3244338c26710bcb817932abda7a5ac0f"
+      ]
+    },
+    "service": {
+      "hostname": "www.corylucas.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1752979318,
+  "expire_in": 157680000,
+  "prev": "e4b574543bb4c5f8db2a04d390cc8a8183a7d033ea302d4bbb7345ef2088cb87",
+  "seqno": 52,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMPXAnicrZN9TFZVHMcfQBEUE6YkvqB5h00L8dx77iusiUopiiOZZlPy8bzdh0ce
+nvtw7wVEJZXpYhrYFOdbboVuGqImpulspeZSdGbN0LQxTVyYCDNz+Layc5mtrfVn
+f91z7/3+vr/v73POOT0wxtc/6l77yuIq45gTdf7Uu2W+ouXzypcJ2KKVQuYyoZj1
+PliIMsf1FwepkCkAEYgaIdhUdGgSClXDBKYCJJHqJhAZAyoGpoY0kwBNYhQDALGq
+a1Q0KcImUBXJUAAS0gUzGA4wO2IHwy63VbAJeY2IFGJiiTFJlUVJosgEDOrcU6PQ
+wIYGeWGR5XgVPBxGDssIWvwbf/H3xvsP/f+cu6zXTlUNLKsMUENjuo6orooapqKM
+AVYVGQBP6DA7jEoYVxPLrjRDZQQ5QlW6UMLs4hDz25bleniJG/REosZbaAYEgI+I
+nCJ/CXMRr9WwAiWiU4Agk6EuYaKKiiQzDZkGIDowKB8JM0UkKtNkIkKCEWWA63SR
+j+IlcVhp2BIyJdVQZKhAHsFm5VYx87o7wQAn5wiZCwQoSxJTVQAp5UpKkaQYisJE
+quoGhNhEUJJlCHUiqZoIMMG6yPNKCFOkIQURYArvVHnd7PIg6TX3tuo5goqKigwP
+Qy8FvirhuSK25VrECvHfRa4bcTI9Om5lpFfPsP+5kx8Hw5SfFl5RzmwnaIU5La78
+FzhRTxfYkkjQZv6gp1A0VQfAwxnh43JLJmNFkzkCjGWimDrFEgIyPyiAEB3pog6R
+RgGEDEEgURljrEFZYaYEdJ0Pq/1DUpF4ThTgnhxfGLllNhOqTp0s7OOL6u+L7Rvt
+XSNf//jEvy9XbGTQs6r3h9TVnsvvUnqyrROVrau3LlqRqEzdO68qFFs7LqttIulc
+M+PglsCeYd8ujDLGteeerZ6+ZmZH9tKfwaF+A27GPbgxc2/K4Ya0Tzq+qhkizd/2
+a3rCk9a7xIjv25RU/3iBdICseNqUHPhux9F99wqTc1v2NycUXVBHb7zcN+74QPuj
+zf1o9ZTcDTmfT7gT2zlj/ZuPdtZV09i0WnNxpAGEDuSFNoqvfVPojo2vnx24vXSK
+i2uezOmJnzVixNlRi9KzRlakjjyrX+lMG581/uSSlI3nH76Ys+q9I7UtJZ0Jg3Jn
+5NQGss+c8s/1Hb+yK2Fu99RbtFnOV6SMPg/t+lcGPK7s7Go7dPjB/D3N16Y9iskZ
+eGOC0JN3pDGlY6Lvh7qV9IOKpM0/ba55q/Gl729O2Z1X3tp5emdB3MJVzS83zBpz
+/ca04cljxj4r6NaO/hLzdJ1zILljlP/ToeB646bhB4cmXkwagXaUFXTA6NuT1n5x
+aFhBV9Od1edWXSZRQ+T5c8ZerR9eao5cN6D4UuGrm8KNpZO6tx98Y/TXdStaW69u
+K635raMk89qWfZeyL7zQdj967bVBsT/eH7f9+Jo/Lq7/MmpyJCXtotqQOnlr+Z+r
+Xz+5u8+tbrir+m33s4KWx78P1rvXVl7f3dLedWznzZieY+11qU1nbDa9PtQWfffj
+lKw4O78fmL148NGMD/ensrgNy0/8BZJU/LA=
+=8c2B
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/coryflucas
+
+==================================================================

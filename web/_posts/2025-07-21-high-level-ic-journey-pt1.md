@@ -39,7 +39,8 @@ that pointed to a null terminated string, and then put another memory location
 in a different register that pointed to a single character, you could call the
 instruction and it would basically loop through the string until it found the
 character or the end of the string. That something this seemingly high level was
-accomplished by just calling a single instruction in a loop blew my mind.
+accomplished by just calling a single instruction in a loop was quite surprising
+to me.
 
 The other thing that I really liked from the course is you could look up how
 many clock cycles each instruction took to run. This meant that if you knew the

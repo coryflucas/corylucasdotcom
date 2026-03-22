@@ -4,7 +4,8 @@ on:
   pull_request:
     paths:
       - 'web/**'
-  workflow_dispatch:
+      - 'Gemfile'
+      - 'Gemfile.lock'
 
 permissions:
   contents: read

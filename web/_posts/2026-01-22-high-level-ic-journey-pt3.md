@@ -3,9 +3,9 @@ layout: post
 title: My Journey to Becoming a High Level IC - Part 3
 ---
 
-### Chapter 2: Going Deeper as a Senior Engineer
+In Part 3 of this series I'll discuss lessons from my second job. I was now a Senior Software Engineer, working on a whole new set of problems and building full applications from scratch for the first time.
 
-In part 3 of this series I'll be discussing my lessons from my second job. I was now a Senior Software Engineer and working on a whole new set of problems and for the first time building full applications from scratch.
+### Chapter 2: Going Deeper as a Senior Engineer
 
 #### Design patterns are everywhere
 

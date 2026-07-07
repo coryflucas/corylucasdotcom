@@ -3,6 +3,8 @@ layout: post
 title: My Journey to Becoming a High Level IC - Part 5
 ---
 
+Part 5 brings the series to a close. I'll share what I've learned since my startup was acquired by American Express — adapting to a bigger company and a broader role.
+
 ### Being Acquired
 
 So after just over 7 years working for a startup, we were acquired in 2020 by American Express, where I work today. It's been an interesting transition, good in many ways, bumpy in others, but it has presented me with many new opportunities and challenges.

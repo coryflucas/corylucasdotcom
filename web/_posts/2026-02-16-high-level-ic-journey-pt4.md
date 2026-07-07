@@ -3,9 +3,11 @@ layout: post
 title: My Journey to Becoming a High Level IC - Part 4
 ---
 
+Part 4 of this series explores my third job — working as an engineer, architect, and a few other roles at a small fintech startup.
+
 ### Chapter 4: The Startup
 
-My next job was at a startup. I got an opportunity to be involved in every part of building and running applications, from code to DB to infrastructure. I also gained a lot more insight into how the actual business ran and how the pipeline of work was shaped.
+I got an opportunity to be involved in every part of building and running applications, from code to DB to infrastructure. I also gained a lot more insight into how the actual business ran and how the pipeline of work was shaped.
 
 #### Working with Product
 

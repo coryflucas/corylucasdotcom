@@ -3,9 +3,11 @@ layout: post
 title: My Journey to Becoming a High Level IC - Part 2
 ---
 
+Earlier this year I started writing about the different experiences and lessons that have shaped my career journey. This post is Part 2 of the series and I'll walk through some of the things I learned at my first job.
+
 ### Chapter 1: The First Job
 
-Earlier this year I started writing about the different experiences and lessons that have shaped my career journey. This post is part two of the series and I'll walk through some of the things I learned at my first job. When I joined the company I was initially doing rotations with different teams as a way to learn the different systems of the company. Getting hands on experience was a great way to learn, and it also meant I was exposed to various different ways of working.
+When I joined the company I was initially doing rotations with different teams as a way to learn the different systems of the company. Getting hands on experience was a great way to learn, and it also meant I was exposed to various different ways of working.
 
 #### Automate It
 

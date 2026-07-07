@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: high-level-ic
 title: My Journey to Becoming a High Level IC - Part 5
+tags: high-level-ic
 ---
 
 Part 5 brings the series to a close. I'll share what I've learned since my startup was acquired by American Express — adapting to a bigger company and a broader role.

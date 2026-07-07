@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: high-level-ic
 title: My Journey to Becoming a High Level IC - Part 2
+tags: high-level-ic
 ---
 
 Earlier this year I started writing about the different experiences and lessons that have shaped my career journey. This post is Part 2 of the series and I'll walk through some of the things I learned at my first job.

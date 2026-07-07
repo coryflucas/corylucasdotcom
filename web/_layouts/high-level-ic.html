@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+
+<div class="post container masthead">
+
+  <header class="post-header">
+    <h2>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+  {{ content }}
+  </article>
+
+  <div class="alert alert-primary text-center p-1" role="alert" markdown="1">
+    <i class="bi bi-journals"></i> This post is of my <a href="/blog/high-level-ic/">High Level IC Series</a>!
+  </div>
+
+</div>

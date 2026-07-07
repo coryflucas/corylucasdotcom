@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: high-level-ic
 title: My Journey to Becoming a High Level IC - Part 3
+tags: high-level-ic
 ---
 
 In Part 3 of this series I'll discuss lessons from my second job. I was now a Senior Software Engineer, working on a whole new set of problems and building full applications from scratch for the first time.

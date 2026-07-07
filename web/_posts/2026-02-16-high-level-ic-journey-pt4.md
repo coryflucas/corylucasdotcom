@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: high-level-ic
 title: My Journey to Becoming a High Level IC - Part 4
+tags: high-level-ic
 ---
 
 Part 4 of this series explores my third job — working as an engineer, architect, and a few other roles at a small fintech startup.

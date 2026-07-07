@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: high-level-ic
 title: My Journey to Becoming a High Level IC - Part 1
+tags: high-level-ic
 ---
 
 One of the most common questions I get in my role is "what do I need to do to

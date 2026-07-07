@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /blog/high-level-ic/
+title: Blog
+---
+
+<div class="container masthead">
+    <h1>High Level IC Series</h1>
+
+    <p>This set of blog posts chronicles my career journey as a high-level individual contributor.</p>
+
+    <ul class="posts">
+        {% for post in site.tags.high-level-ic reversed %}
+        <li class="post">
+            <h3>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <p>{{ post.excerpt }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>

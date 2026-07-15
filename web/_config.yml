@@ -6,7 +6,7 @@ description: "The home page and blog of Cory Lucas, a software engineer and tech
 baseurl: ""
 url: "http://www.corylucas.com"
 bluesky_username: coryflucas
-github_username:  corylucas.com
+github_username:  coryflucas
 version: 1
 # Build settings
 markdown: kramdown
